@@ -38,6 +38,8 @@ const Header = () => {
             <li><Link to="/">Home</Link></li>
             <li className='active'><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/login">Login</Link></li>
+            <li><button type="button" class="btn btn-danger"><Link to="/signup">Create Account</Link></button></li>
           </ul>
         </div>
       </div>

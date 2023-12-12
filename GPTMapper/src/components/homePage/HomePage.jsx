@@ -81,8 +81,10 @@ const HomePage = () => {
               <h2>Hello, <br/> Need Guidance?</h2>
               <p>You reached the right place. We provide instant roadmaps essential to ace your career.</p>
               <div className="btn-container">
-                <input className="btn-1" placeholder="Enter Topic" value={inputValue} onChange={(e) => setInputValue(e.target.value)} />
-                <button className="btn-2" onClick={handleButtonClick}>Get</button>
+              <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 col-8" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+    </form>
               </div>
             </div>
           </div>
